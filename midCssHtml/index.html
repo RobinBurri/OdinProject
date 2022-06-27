@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="form-section">
+        <div class="container form-header">
+            <h3>Speaker Subscription</h3>
+            <p>Want to speak at our fake conference? Fill out this form.</p>
+        </div>
+        <div class="container">
+            <form action="" method="post">
+                <div class="form-group">
+                    <label for="firstName">Name</label><input type="text"
+                        name="firstName" id="firstName" />
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name</label><input type="text"
+                        name="lastName" id="lastName" placeholder="last name" />
+                </div>
+                <div class="form-group">
+                    <label for="age">Age</label><input type="number" name="age"
+                        id="age" placeholder="last name" />
+                </div>
+                <div class="form-group">
+                    <label for="user_email">Email</label>
+                    <input type="email" id="email" name="email"
+                        placeholder="you@example.com" />
+                </div>
+                <div class="form-group">
+                    <label for="user_password">Password:</label>
+                    <input type="password" id="user_password" name="password" />
+                </div>
+                <div class="form-group radio-group">
+                    <fieldset class="radio-group">
+                        <legend>Ticket Type:</legend>
+                        <!-- Can add checked to one of the radio -->
+                        <div class="label-radio">
+                            <input type="radio" id="child" name="ticket_type"
+                                value="child" />
+                            <label for="child">Child</label>
+                        </div>
+                        <div class="label-radio">
+                            <input type="radio" id="adult" name="ticket_type"
+                                value="adult" />
+                            <label for="adult">Adult</label>
+                        </div>
+                        <div class="label-radio">
+                            <input type="radio" id="senior" name="ticket_type"
+                                value="senior" />
+                            <label for="senior">Senior</label>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="form-group">
+                    <textarea id="subject"
+                        placeholder="Your ideas..."></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="newsletter">
+                        <span>I agree</span>
+                        <input type="checkbox" id="newsletter"
+                            name="news_letter" value="yes" checked />
+                    </label>
+                </div>
+                <div class="form-group">
+                    <button class="submit" type="submit">Submit</button>
+                </div>
+        </div>
+        </div>
+        </form>
+        </div>
+    </section>
+</body>
+
+</html>
